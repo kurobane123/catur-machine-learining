@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 30px auto;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h3, button {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 30px;
+  font-size: 20px;
+}
+
+canvas {
+  background: whitesmoke;
+  display: block;
+  margin: 15px auto;
+}
+
+.description {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  text-align: left;
+  margin: auto auto;
+  width: 650px;
+  text-align: center;
+}
+
+#buttonHolder {
+  margin: 30px auto;
+  width: 400px;
+  font-weight: bolder;
+}
+
+button {
+  font-size: 20px;
+  height: 45px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #212F3C;
+  color: white;
+}
+
+button:focus {
+  outline: none;
+}
+
+i {
+  font-size: 35px;
+}
+
+.colored {
+  filter: hue-rotate(180deg); /* Change the hue */
+  width: 100px; /* Resize image if needed */
+}
+
+.content{
+  display: flex;
+}
+.img-c{
+  width: 90px;
+  height: 90px;
+}
+.d-flex{
+  display: flex;
+}
+.turn {
+  
+  font-size: 30px;
+  background: #C47E0F;
+  color: #F6DDCC;
+  padding: 4px 10px;
+  margin-top: 20px;
+  border-radius: 7px;
+
+}
